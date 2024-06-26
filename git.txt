@@ -1,0 +1,30 @@
+git init -b master(创建仓库并指定主分支）or   git init
+
+git branch 分支名（创建分支）
+
+git checkout 分支名（切换分支）
+
+git remote add origin 远程项目的 Https（SHH） 地址 （添加远程连接）
+（origin为你命名的远程仓库名）
+
+
+#将项目全部添加到仓库上，添加完后可以这次使用git status 确定是否添加成功
+git add .
+
+如果需要上传指定文件
+
+git add 文件名
+
+# 将项目提交到仓库中
+git commit -m "写下你这次提交文件的提交说明"
+
+
+git push -u origin 分支名（推送到仓库）
+
+
+
+#查看当前文件夹的状态
+git status
+
+
+
